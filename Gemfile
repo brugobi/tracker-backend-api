@@ -6,6 +6,14 @@ ruby '2.6.5'
 # rubocop
 gem 'rubocop', '>= 1.0', '< 2.0'
 
+# authentication
+gem 'devise'
+gem 'devise-jwt'
+gem 'rack-cors'
+
+# for hiding variables
+gem 'dotenv-rails'
+
 # Bundle edge Rails instead: gem 'rails', github: 'rails/rails'
 gem 'rails', '~> 5.2.6'
 # Use postgresql as the database for Active Record
